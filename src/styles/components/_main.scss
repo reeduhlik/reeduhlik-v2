@@ -1,0 +1,781 @@
+*{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 154rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    padding-top: 3rem;
+    width: 10rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.bold{
+    font-weight: bold;
+}
+
+//landing section
+
+.landing{
+    background-color: $background;
+    position: relative;
+    padding-bottom: 350px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-bottom: -320px;
+}
+
+.landing-svg-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+}
+.landing-btns {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.btn-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: $primary;
+    padding: 12px 15px;
+    border-radius: 3px;
+    border: 2px solid $primary;
+    margin-top: 25px;
+    background: none;
+}
+
+.btn-contact-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 3px;
+    border: 2px solid $primary;
+    margin-top: 25px;
+    background: $primary;
+    margin-left: 10px;
+}
+
+.btn-contact-2 img {
+    filter: brightness(0) invert(1);
+}
+
+.btn-contact p {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.landing-title {
+    font-size: 96px;
+    color: $primary;
+    font-weight: 900;
+}
+
+.landing-subtitle {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+hr {
+    width: 30%;
+    margin-top: 30px;
+    background-color: $primary;
+}
+
+.landing-text {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 42px;
+    margin-top: 40px;
+    padding-right: 5%;
+}
+
+.landing-content {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.landing-content-left {
+    width: 55%;
+}
+.landing-content-right {
+    width: 45%;
+}
+.landing-content-right img {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.icon {
+    font-size: 32px;
+    color: $primary;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.scroll-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: $primary;
+    margin-top: 100px;
+}
+
+.scroll-down-text {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.scroll-down-icon {
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+//project showcase
+
+.showcase {
+    width: calc(100% - 100px);
+    margin-top: 75px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.25);
+    margin-bottom: 75px;
+    background-color: rgba($color: #ffffff, $alpha: 0.7);
+}
+
+.showcase-content {
+    width: calc(90% + 10px);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showcase-content-left {
+    width: 35%;
+}
+
+.showcase-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+.showcase-subtitle {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.showcase-languages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.showcase-language {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: .5rem;
+    padding: 5px 10px;
+    border: 1px solid #939393;
+    border-radius: 50px;
+    background-color: none;
+    color: #666;
+}
+
+.showcase-text {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 200;
+}
+
+.btn-showcase {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $primary;
+    padding: 15px 20px;
+    border-radius: 3px;
+    border: 2px solid $primary;
+    margin-top: 40px;
+    background: none;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.btn-showcase p {
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.showcase-content-right {
+    width: 65%;
+}
+.showcase-content-right img {
+    width: 100%;
+}
+
+//portfolio
+
+.portfolio {
+    background-color: #fbfbfb;
+}
+
+.portfolio-title {
+    font-size: 64px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.portfolio-toggles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.portfolio-toggle {
+    font-size: 24px;
+    font-weight: 500;
+    width: 250px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all;
+}
+.portfolio-toggle:hover {
+    cursor: pointer;
+}
+
+.portfolio-toggle img {
+    margin-right: 10px;
+
+}
+
+
+.portfolio-toggle-active {
+    background: $primary;
+    color: white;
+    transition: .2s all;
+}
+.portfolio-toggle-active img {
+    filter: brightness(0) invert(1);
+}
+
+.portfolio-content {
+    overflow: hidden;
+    display: grid;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.portfolio-content-ui {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.portfolio-project-container{
+    border-radius: 3px;
+    background: white;
+    border-bottom: 10px solid $primary;
+    padding-bottom: 30px;
+}
+
+.portfolio-project-image {
+    width: 100%;
+}
+
+.portfolio-project-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-project-title {
+    font-size: 24px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.portfolio-project-subtitle {
+    font-size: 14px;
+    padding-left: 20px;
+    color: $primary;
+    font-weight: 300;
+}
+
+.portfolio-project-chevron {
+    font-size: 20px;
+    color: #666;
+    padding-right: 20px;
+    padding-top: 20px;
+    transition: .5s all;
+}
+
+.portfolio-project-chevron:hover {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.inverted {
+    transform: scale(1, -1);
+}
+
+.portfolio-project-description {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.portfolio-project-languages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.portfolio-project-language {
+    padding: 5px 10px;
+    color: #666;
+    border: 1px solid #666;
+    background: none;
+    margin-right: 7px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.portfolio-project-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.portfolio-project-button {
+     font-size: 24px;
+     margin-right: 20px;
+     text-decoration: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+
+.portfolio-project-button a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+}
+
+.portfolio-project-uibutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+    color: $primary;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius: 3px;
+    border: 2px solid $primary;
+    background: none;
+}
+
+.portfolio-project-uibutton p {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.story {
+    background: #fbfbfb;
+}
+
+.story h2, .story h4 {
+    text-align: center;
+}
+
+.story h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.story h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.story-content {
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+    margin: 70px auto;
+    overflow: hidden;
+}
+
+.story-paragraph {
+    line-height: 40px;
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+
+//skills
+
+.skills {
+    background: $background;
+    width: 100%;
+    border-right: 50px solid $primary;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.skills-title {
+    font-size: 48px;
+    color: $primary;
+    padding-bottom: 40px;
+    font-weight: 900;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-col-title {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: $primary;
+    text-transform: uppercase;
+}
+
+.skills-col-item {
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+//footer
+
+.footer{
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 20px solid $primary;
+}
+
+.footer-image {
+    width: 250px;
+    margin-top: 40px;
+}
+
+.footer-top {
+    color: $primary;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+.footer-top:hover, .footer-arrow:hover {
+    cursor: pointer;
+}
+.footer-links {
+    color: $primary;
+    padding: 0;
+    margin: 0;
+    margin-top: -20px;
+}
+.footer-arrow {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    color: $primary;
+
+}
+
+//mobile layout
+@media screen and (max-width: 1200px) {
+    .portfolio-content-ui, .portfolio-content{
+        grid-gap: 25px;
+    }
+    .landing-title {
+        font-size: 72px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio-content{
+        grid-template-columns: 1fr 1fr;
+    }
+    .landing-subtitle {
+        font-size: 28px;
+    }
+    .landing-text {
+        font-size: 22px;
+    }
+    .showcase-content-left {
+        width: 45%;
+    }
+    .showcase-content-right {
+        width: 55%;
+    }
+    .showcase-title {
+        font-size: 36px;
+    }
+    .skills-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .landing-title {
+        font-size: 60px;
+    }
+    .landing-subtitle {
+        font-size: 24px;
+    }
+    .landing-text {
+        font-size: 20px;
+    }
+    .showcase-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .landing-content{
+        flex-direction: column;
+        margin-top: 150px;
+        border-bottom-left-radius: 500px;
+        border-bottom-right-radius: 500px;
+    }
+    .landing-content-left, .landing-content-right {
+        width: 100%;
+    }
+    .landing-content-right {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio-content, .portfolio-content-ui{
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .showcase-content {
+        flex-direction: column;
+        margin-top: 50px;
+        width: 95%;
+    }
+    .showcase {
+        width: 92.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .showcase-content-left {
+        width: 90%;
+    }
+    .showcase-content-right {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .showcase-languages {
+        margin-bottom: 20px;
+    }
+    .btn-showcase {
+        margin-top: 20px;
+    }
+    .story h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .story-content {
+        padding: 5px;
+    }
+    .portfolio-content, .portfolio-content-ui {
+        width: 90%;
+    }
+    .btn-showcase {
+        padding: 10px 15px;
+    }
+    .btn-showcase p {
+        font-size: 16px;
+    }
+    .portfolio-title {
+        font-size: 48px;
+    }
+    .portfolio-toggle {
+        font-size: 18px;
+        padding: 8px 0px;
+        width: 200px;
+    }
+    .portfolio-toggle img {
+        margin-right: 5px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio-content, .portfolio-content-ui {
+        width: 100%;
+    }
+    .landing {
+        padding-bottom: 300px;
+    }
+    .landing-title {
+        font-size: 54px;
+    }
+    .landing-subtitle {
+        font-size: 22px;
+    }
+    hr {
+        display: none;
+    }
+    .skills {
+        border-right: none;
+        border-bottom: 20px solid $primary;
+    }
+    .skills-container {
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    .skills-title {
+        text-align: center;
+    }
+    .showcase {
+        margin-bottom: 20px;
+    }
+    .portfolio-title {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .portfolio-toggle {
+        font-size: 14px;
+        padding: 8px 0px;
+        width: 150px;
+    }
+    .portfolio-toggle img {
+        margin-right: 5px;
+        width: 20px;
+    
+    }
+    .landing-btns {
+        float: none;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-content {
+        margin-top: 75px;
+    }
+    .landing-title {
+        font-size: 46px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .landing-subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+    .landing-text {
+        font-size: 18px;
+        text-align: center;
+        line-height: 32px;
+    }
+    .icons {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .footer-links {
+        margin-top: 20px;
+    }
+    
+    .btn-contact p {
+        font-size: 12px;
+    }
+    .story-paragraph {
+        line-height: 28px;
+        font-size: 14px;
+        padding-bottom: 30px;
+        font-weight: 300;
+    }
+}

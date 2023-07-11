@@ -1,0 +1,76 @@
+.neurodd-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f8f8f8;
+}
+
+.neurodd-header-img {
+    display: block;
+    width: 30rem;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.neurodd-header-subtitle {
+    font-size: 1.6rem;
+    font-family: 'Avenir';
+    font-weight: lighter;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+.extra-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90rem;
+    margin-bottom: 10rem;
+}
+
+.neurodd-main-text {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin-top: 2.5rem;
+    line-height: 2.8rem;
+}
+
+.neurodd-main-text a {
+    color: #000;
+    font-weight: bold;
+}
+
+.neurodd-main-header {
+    font-size: 3.6rem;
+    margin-top: 5rem;
+    font-weight: heavy;
+    letter-spacing: .1rem;
+
+}
+
+.neurodd-sub-header {
+    font-size: 2.4rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    margin-top: .3rem;
+}
+
+.neurodd-date-line {
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.neurodd-block-seperator {
+    width: 50%;
+    height: 1px;
+    background: #aaa;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+}
