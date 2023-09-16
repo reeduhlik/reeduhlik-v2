@@ -14,6 +14,8 @@ const Portfolio = () => {
       description:
         "As the founder and CEO of Georgetown's premier software development club, I built our club's website to recruit new developers, showcase our projects, and provide resources for our members.",
       languages: ["React", "Google Sheets API"],
+      github: "#",
+      demo: "https://hoyadevelopers.com",
     },
     {
       title: "Hoyalytics",
