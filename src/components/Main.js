@@ -10,14 +10,24 @@ const Main = () => (
   <div className="content">
     <Landing />
     <Showcase
-      title="Reservable.io"
-      websiteLink="https://our-gym-calendar.herokuapp.com/"
-      image="/assets/reservable.png"
-      languages={["React", "NodeJS", "Express"]}
-      info="An organizational tool for apartment managers and tenants to reserve and schedule facility amenities. Features include an elegant UI, OAuth, Google Calendar integration, and a robust API."
+      title="Hoya Courses"
+      year="2023"
+      websiteLink="https://hoyacourses.com/"
+      image="/assets/hoyacourses.png"
+      languages={["React", "Python", "Selenium"]}
+      info="An online platform for Georgetown students to find classes and professors that fit their needs. Built to help students navigate the university’s outdated course registration system."
+    />
+    <Showcase
+      title="FoodMe App"
+      websiteLink="https://youtu.be/-rgiAKuSCuY"
+      image="/assets/foodme.png"
+      year="2023"
+      languages={["Flutter", "Firebase", "Google Maps API"]}
+      info="Placed Top 3 nationally in Google’s 2023 Solution Challenge with an app built using Flutter and Google Maps API designed to combat food insecurity."
     />
     <Showcase
       title="Basha Swim & Dive"
+      year="2021"
       websiteLink="https://bhsswimanddiveteam.com"
       image="/assets/basha-swim.png"
       languages={["React", "NodeJS", "Express", "MongoDB"]}

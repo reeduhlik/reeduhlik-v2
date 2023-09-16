@@ -8,7 +8,15 @@ const Portfolio = () => {
 
   const webProjects = [
     {
-      title: "HoyAlytics",
+      title: "Hoya Developers",
+      img: "/assets/portfolio/developers.png",
+      subtitle: "August 2023 - September 2023",
+      description:
+        "As the founder and CEO of Georgetown's premier software development club, I built our club's website to recruit new developers, showcase our projects, and provide resources for our members.",
+      languages: ["React", "Google Sheets API"],
+    },
+    {
+      title: "Hoyalytics",
       img: "/assets/portfolio/hoyalytics.png",
       subtitle: "June - August 2022",
       description:
@@ -23,7 +31,7 @@ const Portfolio = () => {
       subtitle: "March - August 2019",
       description:
         "A content management system designed for football fans to select winners of weekly games. Features include user authentication, custom scoring, and automated standings.",
-      languages: ["PHP", "Javascript", "MySQL", "CSS"],
+      languages: ["PHP", "Javascript", "MySQL"],
       github: "#",
       demo: "https://poolorganizer.net",
     },
@@ -79,6 +87,11 @@ const Portfolio = () => {
   ];
 
   const uiProjects = [
+    {
+      title: "Reservable.io",
+      img: "/assets/reservable.png",
+      subtitle: "July 2022",
+    },
     {
       title: "Rainyday App",
       img: "/assets/portfolio/ui-rainyday.jpg",

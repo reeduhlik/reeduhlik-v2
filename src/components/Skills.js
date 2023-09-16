@@ -6,13 +6,22 @@ const Skills = (props) => {
   const skills = [
     {
       title: "Languages",
-      items: ["HTML/CSS", "Javascript (ES6+)", "PHP", "SQL", "C++", "Python"],
+      items: [
+        "HTML/CSS",
+        "Javascript (ES6+)",
+        "PHP",
+        "SQL",
+        "Java",
+        "C++",
+        "Python",
+      ],
     },
     {
       title: "Frameworks",
       items: [
         "React",
         "React Native",
+        "Angular",
         "Express",
         "Node",
         "MongoDB",
@@ -43,14 +52,12 @@ const Skills = (props) => {
         <h1 className="skills-title">MY SKILLS</h1>
         <div className="skills-container">
           {skills.map((skill) => (
-            <AnimationOnScroll animateIn="animate__fadeInDown" duration={1000}>
-              <div className="skills-col">
-                <h3 className="skills-col-title">{skill.title}</h3>
-                {skill.items.map((item) => (
-                  <p className="skills-col-item">{item}</p>
-                ))}
-              </div>
-            </AnimationOnScroll>
+            <div className="skills-col">
+              <h3 className="skills-col-title">{skill.title}</h3>
+              {skill.items.map((item) => (
+                <p className="skills-col-item">{item}</p>
+              ))}
+            </div>
           ))}
         </div>
       </div>
