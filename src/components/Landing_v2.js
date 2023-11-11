@@ -1,5 +1,5 @@
 import React from "react";
-import { AnimationOnScroll } from "react-animation-on-scroll";
+
 import "animate.css/animate.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
