@@ -15,7 +15,11 @@ const Landing = () => {
       />
       <div className="container">
         <div className="landing-btns">
-          <a href="#" className="btn-contact">
+          <a
+            href="https://drive.google.com/file/d/1Qk1ZvWSejKJh8tdzN8Zs-9mDwFJn3wlq/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-contact">
             <p>My Resume</p>
             <img src="/assets/icons/download.svg" alt="" />
           </a>
