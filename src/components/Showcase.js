@@ -16,10 +16,12 @@ const Showcase = (props) => {
             ))}
           </div>
           <p className="showcase-text">{props.info}</p>
-          <a href={props.websiteLink} className="btn-showcase">
-            <p>Visit Website</p>
-            <img src="/assets/icons/arrow-right.svg" alt="" />
-          </a>
+          {props.websiteLink != "#" && (
+            <a href={props.websiteLink} className="btn-showcase">
+              <p>Visit Website</p>
+              <img src="/assets/icons/arrow-right.svg" alt="" />
+            </a>
+          )}
         </div>
         <div className="showcase-content-right">
           <img src={props.image} alt="" />
